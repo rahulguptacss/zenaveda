@@ -1,0 +1,235 @@
+{
+  "common": {
+    "Header": {
+      "logo_text": "ZenAveda",
+      "logo": "/logo/logo.webp",
+      "links": [
+        { "name": "Home", "href": "#home" },
+        { "name": "About Us", "href": "#about" },
+        { "name": "Services", "href": "#programs" },
+        { "name": "Classes", "href": "#why" },
+        { "name": "Trainers", "href": "#team" },
+        { "name": "Gallery", "href": "#gallery" },
+        { "name": "Contact Us", "href": "#contact" }
+      ],
+      "button_text": "Start Your Journey",
+      "button_href": "#contact"
+    },
+    "Footer": {
+      "logo_text": "ZenAveda",
+      "logo": "/logo/logo.webp",
+      "quick_title": "Quick Links",
+      "quick_links": [
+        { "name": "Home", "href": "#home" },
+        { "name": "About Us", "href": "#about" },
+        { "name": "Classes", "href": "#why" },
+        { "name": "Trainers", "href": "#team" },
+        { "name": "Blog", "href": "#testimonials" },
+        { "name": "Contact Us", "href": "#contact" }
+      ],
+      "classes_title": "Our Classes",
+      "classes": [
+        { "name": "Hatha Yoga", "href": "#programs" },
+        { "name": "Vinyasa Yoga", "href": "#programs" },
+        { "name": "Ashtanga Yoga", "href": "#programs" },
+        { "name": "Prenatal Yoga", "href": "#programs" },
+        { "name": "Yoga for Wellness", "href": "#programs" },
+        { "name": "Meditation & Mindfulness", "href": "#programs" }
+      ],
+      "contact_title": "Get in Touch",
+      "address": "123 Education Lane, New York, NY 10001",
+      "phone": "+100000000000",
+      "email": "info@xyz.com",
+      "copyright": "© Copyright 2026 ZenAveda. All Rights Reserved."
+    },
+    "BackToTop": { "aria_label": "Back to top" }
+  },
+  "categories": {
+    "Wellness": {
+      "templateComponents": {
+        "template-1": {
+          "pages": {
+            "home": {
+              "title": "Home",
+              "pageName": "Home",
+              "metadata": {
+                "title": "ZenVeda | Breathe, Stretch and Thrive",
+                "description": "Yoga programs, trainers, and a calm place to begin."
+              },
+              "components": [
+                { "key": "HeroSection", "component": "Hero" },
+                { "key": "AboutSection", "component": "About" },
+                { "key": "ProgramsSection", "component": "Programs" },
+                { "key": "WhySection", "component": "WhyChoose" },
+                { "key": "GallerySection", "component": "Gallery" },
+                { "key": "TestimonialsSection", "component": "Testimonials" },
+                { "key": "CtaSection", "component": "Cta" },
+                { "key": "FaqSection", "component": "Faq" },
+                { "key": "TeamSection", "component": "Team" },
+                { "key": "ContactSection", "component": "Contact" }
+              ]
+            }
+          },
+          "sections": {
+            "hero": {
+              "id": "home",
+              "eyebrow": "Welcome to ZenAveda",
+              "title_line1": "Breathe, Stretch",
+              "title_line2": "and Thrive with",
+              "title_highlight": "Yoga",
+              "description": "Discover the power of yoga to build strength, reduce stress, and bring balance to your mind, body and soul.",
+              "button_text": "Contact Us",
+              "button_href": "#contact",
+              "images": ["/img/hero-1.webp", "/img/pose-2.webp", "/img/hero-3.webp"]
+            },
+            "about": {
+              "id": "about",
+              "eyebrow": "About ZenAveda",
+              "title": "Yoga for a Healthier, Happier",
+              "title_highlight": "You",
+              "description": "At ZenAveda, we believe in the transformative power of yoga to create balance, strength, and inner peace in everyday life.",
+              "points": [
+                "Holistic Yoga Programs",
+                "Certified & Experienced Trainers",
+                "For All Fitness Levels",
+                "Focus on Mind, Body & Wellness"
+              ],
+              "badge_value": "10+",
+              "badge_label": "Years of Excellence",
+              "button_text": "More About Us",
+              "button_href": "#team",
+              "images": ["/img/about-1.webp", "/img/about-2.webp", "/img/gallery-1.webp"]
+            },
+            "programs": {
+              "id": "programs",
+              "eyebrow": "Our Services",
+              "title": "Yoga Programs for Every Need",
+              "description": "Explore our range of yoga services designed to improve your physical health, mental clarity, and overall well-being.",
+              "items": [
+                { "title": "Hatha Yoga", "text": "Build strength, balance, and flexibility at a steady pace.", "image": "/img/program-1.webp", "icon": "lotus" },
+                { "title": "Vinyasa Flow", "text": "Dynamic movements synchronized with breath for energy and flow.", "image": "/img/pose-2.webp", "icon": "meditate" },
+                { "title": "Restorative Yoga", "text": "Deep relaxation to reduce stress and heal the body.", "image": "/img/program-3.webp", "icon": "lotus" },
+                { "title": "Restorative Yoga", "text": "Deep relaxation to reduce stress and heal the body.", "image": "/img/program-4.webp", "icon": "lotus" },
+                { "title": "Vinyasa Flow", "text": "Dynamic movements synchronized with breath for energy and flow.", "image": "/img/program-5.webp", "icon": "meditate" },
+                { "title": "Hatha Yoga", "text": "Build strength, balance, and flexibility at a steady pace.", "image": "/img/program-6.webp", "icon": "lotus" }
+              ]
+            },
+            "why": {
+              "id": "why",
+              "eyebrow": "Why Choose Us",
+              "title": "Why",
+              "title_highlight": "Choose Us",
+              "description": "A holistic approach to yoga and wellness with expert guidance, a peaceful environment, and personalized care.",
+              "image": "/img/why.webp",
+              "points": [
+                { "title": "Expert Instructors", "text": "Learn from certified and experienced yoga trainers.", "icon": "meditate" },
+                { "title": "Holistic Wellness", "text": "Balance your mind, body, and inner well-being.", "icon": "leaf" },
+                { "title": "All Levels Welcome", "text": "Classes for beginners to advanced practitioners.", "icon": "people" },
+                { "title": "Peaceful Environment", "text": "A calm and positive space for focused practice.", "icon": "lotus" },
+                { "title": "Flexible Classes", "text": "Choose from a variety of timings that fit your routine.", "icon": "calendar" },
+                { "title": "Health & Fitness", "text": "Improve flexibility, strength, and overall vitality.", "icon": "heart" }
+              ],
+              "stats": [
+                { "value": "07+", "label": "Years of Experience", "icon": "lotus" },
+                { "value": "25+", "label": "Expert Trainers", "icon": "people" },
+                { "value": "22+", "label": "Yoga Classes", "icon": "lotus" },
+                { "value": "1K+", "label": "Happy Members", "icon": "meditate" }
+              ]
+            },
+            "gallery": {
+              "id": "gallery",
+              "eyebrow": "Our Gallery",
+              "title": "Capture of Our",
+              "title_highlight": "Yoga Journey",
+              "description": "Explore beautiful moments from our yoga classes, workshops, and wellness sessions.",
+              "items": [
+                { "type": "image", "image": "/img/gallery-1.webp", "title": "" },
+                { "type": "card", "image": "", "title": "Yoga for Mind & Body" },
+                { "type": "image", "image": "/img/pose-2.webp", "title": "" },
+                { "type": "image", "image": "/img/gallery-3.webp", "title": "" },
+                { "type": "image", "image": "/img/gallery-4.webp", "title": "" },
+                { "type": "image", "image": "/img/gallery-5.webp", "title": "" },
+                { "type": "image", "image": "/img/gallery-6.webp", "title": "" },
+                { "type": "image", "image": "/img/program-4.webp", "title": "" }
+              ]
+            },
+            "testimonials": {
+              "id": "testimonials",
+              "eyebrow": "Client Testimonials",
+              "title": "Real People, Real",
+              "title_highlight": "Results",
+              "description": "Hear from our valued clients about their yoga journey and experience with us.",
+              "items": [
+                {
+                  "image": "/img/testimonial-4.webp",
+                  "quote": "The yoga sessions here have truly transformed my life. I feel more focused, less stressed, and physically stronger. The instructors are supportive, knowledgeable, and create a very welcoming environment.",
+                  "avatar": "/img/team-1.webp",
+                  "name": "Dianne Russell",
+                  "role": "Brand Manager",
+                  "rating": "4.9",
+                  "ratings_count": "2,488 Ratings"
+                },
+                {
+                  "image": "/img/testimonial-3.webp",
+                  "quote": "I came in stiff and left feeling taller. The teachers notice the small things and never rush the room. Every class feels calm, clear, and worth the time.",
+                  "avatar": "/img/team-2.webp",
+                  "name": "Asha Mehta",
+                  "role": "Student since 2024",
+                  "rating": "4.8",
+                  "ratings_count": "1,120 Ratings"
+                }
+              ]
+            },
+            "cta": {
+              "id": "cta",
+              "title": "Start Your Yoga Journey Today",
+              "description": "Book a first class and see how a single hour can change the rest of the day.",
+              "button_text": "Book a Class",
+              "button_href": "#contact"
+            },
+            "faq": {
+              "id": "faq",
+              "eyebrow": "FAQ",
+              "title": "Frequently Asked",
+              "title_highlight": "Questions",
+              "description": "Get quick answers to common questions about our yoga classes, programs, trainers, and memberships.",
+              "image": "/img/faq.webp",
+              "items": [
+                { "icon": "lotus", "question": "Do I Need Prior Experience to Join?", "answer": "No, you don't need any prior experience. Our classes are designed for all levels, including complete beginners. Our trainers will guide you step by step at a comfortable pace." },
+                { "icon": "mat", "question": "What Should I Bring to Class?", "answer": "Wear comfortable clothes. Mats, blocks, and blankets are available in the studio if you do not bring your own." },
+                { "icon": "heart", "question": "Is Yoga Safe for My Health Condition?", "answer": "Tell your trainer about any injury or condition before class. Sessions can be adjusted so the practice stays safe for you." },
+                { "icon": "meditate", "question": "Can Yoga Help with Stress or Anxiety?", "answer": "Yes. Slow breathing and gentle movement help the body settle and make daily stress easier to handle." },
+                { "icon": "card", "question": "Do You Offer Packages or Memberships?", "answer": "Yes. Drop-in classes, class packs, and monthly memberships are available. Ask us which one fits your week." }
+              ]
+            },
+            "team": {
+              "id": "team",
+              "eyebrow": "Our Trainers",
+              "title": "Meet Our Expert Trainers",
+              "members": [
+                { "name": "Meera Shah", "role": "Hatha Lead", "image": "/img/team-1.webp" },
+                { "name": "Anika Rao", "role": "Vinyasa", "image": "/img/team-2.webp" },
+                { "name": "Kiara Das", "role": "Prenatal", "image": "/img/team-3.webp" },
+                { "name": "Sana Iyer", "role": "Meditation", "image": "/img/team-4.webp" }
+              ]
+            },
+            "contact": {
+              "id": "contact",
+              "eyebrow": "Get in Touch",
+              "title": "Contact Us",
+              "description": "Have a question or want to join a class? We'd love to hear from you. Get in touch with our team today.",
+              "image": "/img/contact.webp",
+              "name_placeholder": "Your Name",
+              "phone_placeholder": "Your Phone",
+              "email_placeholder": "Your Email",
+              "date_placeholder": "Preferred Date",
+              "message_placeholder": "Your Message",
+              "button_text": "Contact Us",
+              "success_message": "Thanks. We have your message."
+            }
+          }
+        }
+      }
+    }
+  }
+}
